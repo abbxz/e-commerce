@@ -1,0 +1,73 @@
+*{
+    font-family: Sans-Serif;
+    color: white;
+    margin: 0;
+}
+header{
+    padding-top: 15px;
+    background-image: linear-gradient(0deg, rgba(1, 1, 1, 0.438), rgba(1, 1, 1, 0.438))
+}
+header nav{
+    padding-bottom: 10px;
+}
+nav a:hover{
+    color: rgb(172, 158, 152);
+    text-decoration: underline;
+}
+body{
+    background-image: linear-gradient(0deg, rgba(1, 1, 1, 0.438), rgba(1, 1, 1, 0.274)), url(https://images.unsplash.com/photo-1579546928686-286c9fbde1ec?q=80&w=1878&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-size: cover;
+    background-attachment: fixed;
+}
+body img{
+    width: 250px;
+    height: 300px;
+    box-shadow: 1px 3px 20px -1px rgba(0,0,0,0.9);
+}
+img:hover{
+    opacity: 1;
+    transform: translatey(-3%);
+  }
+button{
+    font-weight: 700;
+    font-size: 13px;
+    background-color: rgb(143, 103, 104);
+    border: 1px solid black;
+    border-radius: 4px;
+    padding: 8px;
+    padding-left: 13px;
+    padding-right: 13px;
+    margin-left: 5px;
+}
+button:hover{
+    color: black;
+    background-color: rgb(109, 131, 126);
+}
+div button{
+    position: relative;
+    left: 32px;
+    top: 15px;
+}
+header h1{
+    text-align: center;
+}
+header nav{
+    text-align: center;
+
+}
+header nav a{
+    margin-left: 20px;
+    text-decoration: none;
+}
+main {
+ display: flex;
+ justify-content: space-evenly;
+}
+main div figcaption {
+    text-align: center;
+    font-size: 20px;
+    margin-top: 7px;
+}
+main a {
+    text-decoration: none;
+}
